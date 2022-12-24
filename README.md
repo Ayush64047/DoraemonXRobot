@@ -53,9 +53,9 @@
 
 ## Credits 
 
-* [![Aks](https://img.shields.io/static/v1?label=KDBotz&message=Telegram&color=critical)](https://t.me/Royaldwip)
+* [![Aks](https://img.shields.io/static/v1?label=Royaldwip&message=Telegram&color=critical)](https://t.me/Royaldwip)
 * [![Contact](https://img.shields.io/static/v1?label=Contact&message=On+Telegram&color=critical)](https://t.me/Royaldwip)
 
 ## Deploy 
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Shnogbot67/doreamoh_movies_bot)
+[![Deploy](https://www.Koyeb.com/deploy/button.svg)](https://Koyeb.com/deploy?template=https://github.com/Shnogbot67/doreamoh_movies_bot)
