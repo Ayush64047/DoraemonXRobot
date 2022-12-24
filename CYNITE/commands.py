@@ -24,7 +24,7 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                   ],[
-                    InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇs', url='https://t.me/wombackup'),
+                    InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇs', url='https://t.me/+9K5udbfXvw05YTNl'),
                     InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ', url='https://t.me/womsupport')
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -150,7 +150,7 @@ async def start(client, message):
                         [
                          [
                           InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=GRP_LNK),
-                          InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
+                          InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url='https://t.me/+9K5udbfXvw05YTNl')
                        ]
                         ]
                     )
@@ -167,7 +167,7 @@ async def start(client, message):
                         [
                          [
                           InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=GRP_LNK),
-                          InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
+                          InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url='https://t.me/+9K5udbfXvw05YTNl')
                        ]
                         ]
                     )
