@@ -58,4 +58,4 @@
 
 ## Deploy 
 
-[![Deploy](https://www.Koyeb.com/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=https://github.com/Shnogbot67/doreamoh_movies_bot&branch=koyeb&name=urlshortautofilterbot)
+[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=https://github.com/Shnogbot67/doreamoh_movies_bot&branch=koyeb&name=urlshortautofilterbot)
