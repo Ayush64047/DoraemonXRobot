@@ -55,17 +55,16 @@ async def save_group(bot, message):
         settings = await get_settings(message.chat.id)
         if settings["welcome"]:
             for u in message.new_chat_members:
-                buttons = [[
-                InlineKeyboardButton("𝐂ʟɪᴄᴋ", url="https://t.me/Doreamon_movies_bot//start=true")
-            ]]
+                
                 if (temp.MELCOW).get('welcome') is not None:
                     try:
                         await (temp.MELCOW['welcome']).delete()
                     except:
                         pass
                 temp.MELCOW['welcome'] = await message.reply_photo(
-                photo="https://telegra.ph/file/5c586e00f34665267ab5b.jpg",
-                caption=f"<b>😃 Hᴇʏ, {u.mention},</b>\n<b>Wᴇʟᴄᴏᴍᴇ Tᴏ {message.chat.title} !</b>\n\n<b>ʀᴇᴀᴅ ɢʀᴏᴜᴘ ʀᴜʟᴇs ᴛᴏ ᴋɴᴏᴡ ᴍᴏʀᴇ...</b>",
+                photo="https://graph.org/file/5ceb4a3d8664fc70312a8.jpg",
+                caption=f"<b> Hᴇʏ, {u.mention}😉,</b>\n\n<b>Wᴇʟᴄᴏᴍᴇ Tᴏ {message.chat.title} !</b>\n\n<b>ʜᴏᴘᴇ ʏᴏᴜ ᴡɪʟʟ ᴇɴᴊᴏʏ ᴡɪᴛʜ ᴜs 
+ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ᴋɴᴏᴡ ᴍᴇ 🙋...</b>",
                 reply_markup=InlineKeyboardMarkup(buttons))
                 await asyncio.sleep(60)
                 await temp.MELCOW['welcome'].delete()
