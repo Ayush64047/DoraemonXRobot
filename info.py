@@ -43,14 +43,14 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Channel Button Links
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/Womrequest')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/wombackup')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/+9K5udbfXvw05YTNl')
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/womsupport')
 MSG_ALRT = environ.get('MSG_ALRT', 'Share and Support Us')
 
 # Custom Chats
 SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', -1001609550110))
 FILE_CHANNEL = int(environ.get('FILE_CHANNEL', -1001639314909))
-FILE_CHANNEL_LINK = environ.get('FILE_CHANNEL_LINK', 't.me/wombackup')
+FILE_CHANNEL_LINK = environ.get('FILE_CHANNEL_LINK', 'https://t.me/+9K5udbfXvw05YTNl')
 HOW_DWLD_LINK = environ.get('HOW_DWLD_LINK', 'https://t.me/Royaldwip')
 
 # Log Channels
