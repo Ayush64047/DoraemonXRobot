@@ -57,7 +57,7 @@ async def save_group(bot, message):
             for u in message.new_chat_members:
                 buttons = [[
                 InlineKeyboardButton("𝐂ʟɪᴄᴋ", url="https://t.me/Doreamon_movies_bot//start=true")
-            ]]
+           ]]
                 if (temp.MELCOW).get('welcome') is not None:
                     try:
                         await (temp.MELCOW['welcome']).delete()
