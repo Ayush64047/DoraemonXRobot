@@ -56,7 +56,7 @@ async def save_group(bot, message):
         if settings["welcome"]:
             for u in message.new_chat_members:
                 buttons = [[
-                InlineKeyboardButton("𝐂ʟɪᴄᴋ", url="https://t.me/Doreamon_movies_bot//start=true")
+                InlineKeyboardButton("𝐂ʟɪᴄᴋ", url="https://t.me/Doreamon_movies_bot")
            ]]
                 if (temp.MELCOW).get('welcome') is not None:
                     try:
