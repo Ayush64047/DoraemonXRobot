@@ -1,5 +1,5 @@
 class script(object):
-    START_TXT = """Hey, {} 😃\n\nI Am A Doraemon Filters Bot 😅\n\nYou Can Add Me To Your Group And Add Unlimited Filters, Without Any Issues 😁\n\nMade With By @RoyalDwip ❤"""
+    START_TXT = """𝗛𝗲𝘆, {}😃\n\n𝗜 𝗔𝗺 𝗔 𝗗𝗼𝗿𝗮𝗲𝗺𝗼𝗻 𝗙𝗶𝗹𝘁𝗲𝗿 𝗕𝗼𝘁 😅\n\n𝗬𝗼𝘂 𝗰𝗮𝗻 𝗔𝗱𝗱 𝗠𝗲 𝗧𝗼 𝗬𝗼𝘂𝗿 𝗚𝗿𝗼𝘂𝗽 𝗔𝗻𝗱 𝗔𝗱𝗱 𝗨𝗻𝗹𝗶𝗺𝗶𝘁𝗲𝗱 𝗙𝗶𝗹𝘁𝗲𝗿𝘀, 𝗪𝗶𝘁𝗵𝗼𝘂𝘁 𝗔𝗻𝘆 𝗜𝘀𝘀𝘂𝗲𝘀 😁\n\n𝗠𝗮𝗱𝗲 𝗪𝗶𝘁𝗵 𝗕𝘆 @Royaldwip ❤"""
 
     HELP_TXT = """<b>Hᴇʏ {}
 
