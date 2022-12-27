@@ -555,7 +555,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('ʀᴇᴘᴏʀᴛ ʙᴜɢs & ꜰᴇᴇᴅʙᴀᴄᴋ', url="https://t.me/Royaldwip")
         ],[
-            InlineKeyboardButton('ʙᴀᴄᴋᴜᴘ ᴄʜᴀɴɴᴇʟ', url="https://t.me/Wombackup")
+            InlineKeyboardButton('ᴠɪsɪᴛ ᴏᴜʀ ᴍᴏᴠɪᴇ ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ ᴡᴇʙsɪᴛᴇ', url="www.worldofmovies.cf")
         ],[
             InlineKeyboardButton('ʜᴏᴍᴇ', callback_data='start'),
             InlineKeyboardButton('ᴄʟᴏsᴇ', callback_data='close_data')
