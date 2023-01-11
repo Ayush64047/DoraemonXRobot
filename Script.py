@@ -1,5 +1,5 @@
 class script(object):
-    START_TXT = """𝗛𝗲𝘆, {}😃\n\n𝗜 𝗔𝗺 𝗔 𝗗𝗼𝗿𝗮𝗲𝗺𝗼𝗻 𝗙𝗶𝗹𝘁𝗲𝗿 𝗕𝗼𝘁 😅\n\n𝗬𝗼𝘂 𝗰𝗮𝗻 𝗔𝗱𝗱 𝗠𝗲 𝗧𝗼 𝗬𝗼𝘂𝗿 𝗚𝗿𝗼𝘂𝗽 𝗔𝗻𝗱 𝗔𝗱𝗱 𝗨𝗻𝗹𝗶𝗺𝗶𝘁𝗲𝗱 𝗙𝗶𝗹𝘁𝗲𝗿𝘀, 𝗪𝗶𝘁𝗵𝗼𝘂𝘁 𝗔𝗻𝘆 𝗜𝘀𝘀𝘂𝗲𝘀 😁\n\n𝗠𝗮𝗱𝗲 𝗪𝗶𝘁𝗵 𝗕𝘆 @Royaldwip ❤"""
+    START_TXT = """Hᴇʏ, {} 😃\n\nI Aᴍ ᴀ Dᴏʀᴀᴇᴍᴏɴ x Rᴏʙᴏᴛ \n\nA Sɪᴍᴘʟᴇ Fɪʟᴛᴇʀ Bᴏᴛ 😍 \nAᴅᴅ Mᴇ Iɴ Yᴏᴜʀ Gʀᴏᴜᴘ Aɴᴅ Aᴅᴅ Uɴʟɪᴍɪᴛᴇᴅ Fɪʟᴛᴇʀs 🤪 \n\nFᴏʀ Aɴʏ Qᴜᴇʀʏ - @RoyalDwip"""
 
     HELP_TXT = """<b>Hᴇʏ {}
 
@@ -11,7 +11,7 @@ Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 
 <b>✯ Aɴᴏᴛʜᴇʀ Bᴏᴛ  : <a href=https://t.me/Gopalbharbot> Gopal Bhar Bot</a></b>
 
-<b>✯ Bᴜɪʟᴅ Sᴛᴀᴛᴜs : ᴠ2.0.62 [Sᴛᴀʙʟᴇ]</b>"""
+<b>✯ Bᴜɪʟᴅ Sᴛᴀᴛᴜs : ᴠ5.2.7 [Sᴛᴀʙʟᴇ]</b>"""
 
     SOURCE_TXT ="""
 <b>Tʜɪꜱ Bᴏᴛ Iꜱ Aɴ Oᴘᴇɴ Sᴏᴜʀᴄᴇ Pʀᴏᴊᴇᴄᴛ.
