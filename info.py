@@ -15,16 +15,16 @@ PORT = environ.get("PORT", "8080")
 SESSION = environ.get('SESSION', 'Doraemon')
 API_ID = int(environ.get('API_ID', '13556430'))
 API_HASH = environ.get('API_HASH', '3531771c0d58b9ffc44d12f38c5edbf5')
-BOT_TOKEN = environ.get('BOT_TOKEN', "5943541081:AAFwlqmFElrm75zVf_FXmdxHidWrbnPpp9k")
+BOT_TOKEN = environ.get('BOT_TOKEN', "5879211417:AAGq7q7aF4iPQxMpMirgLG1s8t0PuKlfl6g")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
-PICS = (environ.get('PICS', 'https://telegra.ph/file/fa1f1b53080e70b8e99f1.jpg')).split()
-NOR_IMG = environ.get("NOR_IMG", "https://telegra.ph/file/fa1f1b53080e70b8e99f1.jpg")
-SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/fa1f1b53080e70b8e99f1.jpg")
-NEWGRP = environ.get("NEWGRP", "https://telegra.ph/file/fa1f1b53080e70b8e99f1.jpg")
+PICS = (environ.get('PICS', 'https://telegra.ph/file/d42e442f7333dbe863a44.jpg')).split()
+NOR_IMG = environ.get("NOR_IMG", "https://telegra.ph/file/d42e442f7333dbe863a44.jpg")
+SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/d42e442f7333dbe863a44.jpg")
+NEWGRP = environ.get("NEWGRP", "https://telegra.ph/file/d42e442f7333dbe863a44.jpg")
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1782834874').split()]
