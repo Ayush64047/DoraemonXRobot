@@ -42,16 +42,16 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "Royaldwip")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Channel Button Links
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/Womrequest')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/+Worldofmovies8')
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/womsupport')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/blackest_harbour')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/z_harbour')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/mdisk_bots')
 MSG_ALRT = environ.get('MSG_ALRT', 'Share and Support Us')
 
 # Custom Chats
-SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', -1001609550110))
-FILE_CHANNEL = int(environ.get('FILE_CHANNEL', -1001877356372))
-FILE_CHANNEL_LINK = environ.get('FILE_CHANNEL_LINK', 'https://t.me/+9K5udbfXvw05YTNl')
-HOW_DWLD_LINK = environ.get('HOW_DWLD_LINK', 'https://t.me/Royaldwip')
+SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', -1001557431626))
+FILE_CHANNEL = int(environ.get('FILE_CHANNEL', -1001664271836))
+FILE_CHANNEL_LINK = environ.get('FILE_CHANNEL_LINK', 'https://t.me/+BOskvi9PgTgzMmE1')
+HOW_DWLD_LINK = environ.get('HOW_DWLD_LINK', 'https://t.me/mdisk_bots/13')
 
 # Log Channels
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', -1001634487274))
@@ -70,7 +70,7 @@ SPELL_CHECK_REPLY = is_enabled(environ.get("SPELL_CHECK_REPLY", "True"), True)
 MAX_LIST_ELM = environ.get("MAX_LIST_ELM", None)
 INDEX_REQ_CHANNEL = int(environ.get('INDEX_REQ_CHANNEL', LOG_CHANNEL))
 FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '')).split()]
-MELCOW_NEW_USERS = is_enabled((environ.get('MELCOW_NEW_USERS', "False")), True)
+MELCOW_NEW_USERS = is_enabled((environ.get('MELCOW_NEW_USERS', "True")), True)
 PROTECT_CONTENT = is_enabled((environ.get('PROTECT_CONTENT', "False")), False)
 PUBLIC_FILE_STORE = is_enabled((environ.get('PUBLIC_FILE_STORE', "True")), True)
 
@@ -85,8 +85,8 @@ SPL_DELETE_TIME = int(environ.get('SPL_DELETE_TIME', 120))
 
 # URL SHORTNER
 
-URL_SHORTENR_WEBSITE = environ.get('URL_SHORTENR_WEBSITE', 'gplinks.in')
-URL_SHORTNER_WEBSITE_API = environ.get('URL_SHORTNER_WEBSITE_API', 'dac861e077d89e423386b02dc53c59c53092605a')
+URL_SHORTENR_WEBSITE = environ.get('URL_SHORTENR_WEBSITE', '')
+URL_SHORTNER_WEBSITE_API = environ.get('URL_SHORTNER_WEBSITE_API', '')
 
 LOG_STR = "Current Cusomized Configurations are:-\n"
 LOG_STR += ("IMDB Results are enabled, Bot will be showing imdb details for you queries.\n" if IMDB else "IMBD Results are disabled.\n")
