@@ -1,22 +1,22 @@
 class script(object):
-    START_TXT = """Hᴇʏ, {} 😃\n\nI Aᴍ ᴀ Dᴏʀᴀᴇᴍᴏɴ x Rᴏʙᴏᴛ \n\nA Sɪᴍᴘʟᴇ Fɪʟᴛᴇʀ Bᴏᴛ 😍 \nAᴅᴅ Mᴇ Iɴ Yᴏᴜʀ Gʀᴏᴜᴘ Aɴᴅ Aᴅᴅ Uɴʟɪᴍɪᴛᴇᴅ Fɪʟᴛᴇʀs 🤪 \n\nFᴏʀ Aɴʏ Qᴜᴇʀʏ - @RoyalDwip"""
+    START_TXT = """HᴇLLO Dear {}🖤\n\nI Aᴍ THE BLACK SOVEREIGN FEDx Rᴏʙᴏᴛ \n\nAN ADV A.I CODED LINKS Fɪʟᴛᴇʀ Bᴏᴛ  \nAᴅᴅ Mᴇ Iɴ Yᴏᴜʀ Gʀᴏᴜᴘ Aɴᴅ Aᴅᴅ Uɴʟɪᴍɪᴛᴇᴅ Fɪʟᴛᴇʀs ! \n"""
 
-    HELP_TXT = """<b>Hᴇʏ {}
+    HELP_TXT = """<b>YES DEAR {}
 
 Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 
     ABOUT_TXT = """<b>✯ Mʏ Nᴀᴍᴇ : {}</b>
 
-<b>✯ Cʀᴇᴀᴛᴏʀ : <a href=https://t.me/Royaldwip>Royal Dwip</a></b>
+<b>✯ Cʀᴇᴀᴛᴏʀ : <a href=https://t.me/sigma_male_007>Developer</a></b>
 
-<b>✯ Aɴᴏᴛʜᴇʀ Bᴏᴛ  : <a href=https://t.me/Gopalbharbot> Gopal Bhar Bot</a></b>
+<b>✯ Aɴᴏᴛʜᴇʀ Bᴏᴛ  : <a href=https://t.me/Mdisk_Link_Downloader_Bot> Mdisk_Link_Downloader_Bot</a></b>
 
 <b>✯ Bᴜɪʟᴅ Sᴛᴀᴛᴜs : ᴠ5.2.7 [Sᴛᴀʙʟᴇ]</b>"""
 
     SOURCE_TXT ="""
 <b>Tʜɪꜱ Bᴏᴛ Iꜱ Aɴ Oᴘᴇɴ Sᴏᴜʀᴄᴇ Pʀᴏᴊᴇᴄᴛ.
 
-- Sᴏᴜʀᴄᴇ - <a href=https://t.me/Aks_support01_bot>Watch Tutorial</a></b>
+- Sᴏᴜʀᴄᴇ - <a href=https://t.me/sigma_male_007>P.M DEVELOPER</a></b>
 """
  
     MANUELFILTER_TXT = """ʜᴇʟᴘ: <b>ꜰɪʟᴛᴇʀꜱ</b>
@@ -46,7 +46,7 @@ Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 3. ʙᴜᴛᴛᴏɴꜱ ꜱʜᴏᴜʟᴅ ʙᴇ ᴘʀᴏᴘᴇʀʟʏ ᴘᴀʀꜱᴇᴅ ᴀꜱ ᴍᴀʀᴋᴅᴏᴡɴ ꜰᴏʀᴍᴀᴛ
 
 <b>ᴜʀʟ ʙᴜᴛᴛᴏɴꜱ:</b>
-<code>[Button Text](buttonurl:https://t.me/+9K5udbfXvw05YTNl)</code>
+<code>[Button Text](buttonurl:https://t.me/z_harbour)</code>
 
 <b>ᴀʟᴇʀᴛ ʙᴜᴛᴛᴏɴꜱ:</b>
 <code>[Button Text](buttonalert:ᴛʜɪꜱ ɪꜱ ᴀɴ ᴀʟᴇʀᴛ ᴍᴇꜱꜱᴀɢᴇ)</code>"""
@@ -109,7 +109,7 @@ Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 <b>👥 ɢʀᴏᴜᴘs:</b> <code>{}</code>
 <b>📉 ᴏᴄᴄᴜᴘɪᴇᴅ:</b> <code>{}</code>
 
-<b><a href=https://t.me/+9K5udbfXvw05YTNl>~ Maintained by Royaldwip</a></b>"""
+<b><a href=https://t.me/blackest_harbour>~ Maintained by BLACK FEDERATION!</a></b>"""
 
     ADMIN_STATUS_TXT = """<b>⍟────[ ʙᴏᴛ sᴛᴀᴛᴜ𝗌 ]────⍟</b>
 
@@ -131,7 +131,7 @@ Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 
 <b>🆓 ғʀᴇᴇ:</b> <code>{}</code>
 
-<b>⍟────[ @Royaldwip ]─────⍟</b>"""
+<b>⍟────[ @z_harbour ]─────⍟</b>"""
 
     LOG_TEXT_G = """<b>#NewGroup
     
@@ -188,9 +188,9 @@ Pʟᴇᴀsᴇ Cʜᴇᴄᴋ Yᴏᴜʀ Sᴘᴇʟʟɪɴɢ 🤧</b>
     OWNER_INFO = """
 <b>⍟───[ ᴏᴡɴᴇʀ ᴅᴇᴛᴀɪʟꜱ ]───⍟
     
-• ꜰᴜʟʟ ɴᴀᴍᴇ:- RoyalDwip
-ᴜsᴇʀɴᴀᴍᴇ:- @Royaldwip
-ᴘᴇʀᴍᴀɴᴇɴᴛ ᴅᴍ ʟɪɴᴋ:- <a href='https://t.me/Royaldwip'>Royal Dwip</a></b>
+• ꜰᴜʟʟ ɴᴀᴍᴇ:-MY Father Is Busy Programming On Other Projects!
+ᴜsᴇʀɴᴀᴍᴇ:- & He Doesn't Wants To Give His Info!
+ᴘᴇʀᴍᴀɴᴇɴᴛ ᴅᴍ ʟɪɴᴋ:- <a href='https://t.me/mdisk_bots'>BOTS</a></b>
 """
 
     CYNITE_IMDB = """
@@ -218,8 +218,8 @@ Pʟᴇᴀsᴇ Cʜᴇᴄᴋ Yᴏᴜʀ Sᴘᴇʟʟɪɴɢ 🤧</b>
 • /batch <code>- ᴛᴏ ᴄʀᴇᴀᴛᴇ ʟɪɴᴋ ғᴏʀ ᴍᴜʟᴛɪᴘʟᴇ ᴍᴇᴅɪᴀ.<code>
 
 <b>Exᴀᴍᴘʟᴇ:</b>
-<code>/batch https://t.me/WomBackup
-https://t.me/WomBackup </code>
+<code>/batch https://t.me/z_harbour
+https://t.me/blackest_harbour </code>
 """
 
     CYNITE_CNL = """
@@ -323,7 +323,7 @@ https://t.me/WomBackup </code>
 
 ɪғ ʏᴏᴜ ɴᴏᴛ sᴇᴇ ʏᴏᴜʀ ғɪʟᴇs ᴏɴ ᴛʜɪs ᴘᴀɢᴇ ᴛʜᴇɴ ᴄʟɪᴄᴋ ᴏɴ ɴᴇxᴛ ᴘᴀɢᴇ.
 
-Developed by :- @Royaldwip
+
 """
 
     SPLMD = """
@@ -337,7 +337,7 @@ sᴇʀɪᴇs ʀᴇǫᴜᴇsᴛ ғᴏʀᴍᴀᴛ
 
 🚯ᴅᴏɴ'ᴛ ᴜsᴇ ➠ ':(!,./)
 
-Developed by :- @Royaldwip
+
 """
     
     REQUEST_TXT = """
@@ -420,7 +420,7 @@ Kɪɴᴅʟʏ Cʜᴇᴄᴋ Tʜᴇ Bᴏᴛ Bᴇғᴏʀᴇ Rᴇǫᴜᴇsᴛɪɴɢ.<
 
 🔅 Pᴏᴡᴇʀᴇᴅ Bʏ :- {}
 
-<a href='https://t.me/Cynitebackup'>‣ Tʜɪs Mᴇssᴀɢᴇ Wɪʟʟ ʙᴇ Aᴜᴛᴏ-Dᴇʟᴇᴛᴇᴅ Aғᴛᴇʀ 5 Mɪɴᴜᴛᴇs. Kɪɴᴅʟʏ Fᴏʀᴡᴀʀᴅ Yᴏᴜʀ Fɪʟᴇs Tᴏ Sᴀᴠᴇᴅ.</a></b>"""
+<a href='https://t.me/z_harbour'>‣ Tʜɪs Mᴇssᴀɢᴇ Wɪʟʟ ʙᴇ Aᴜᴛᴏ-Dᴇʟᴇᴛᴇᴅ Aғᴛᴇʀ 5 Mɪɴᴜᴛᴇs. Kɪɴᴅʟʏ Fᴏʀᴡᴀʀᴅ Yᴏᴜʀ Fɪʟᴇs Tᴏ Sᴀᴠᴇᴅ.</a></b>"""
 
     FILE_READY_TXT = """
 <b>Hᴇʏ {}
