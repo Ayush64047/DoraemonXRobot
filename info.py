@@ -22,9 +22,9 @@ CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
 PICS = (environ.get('PICS', 'https://telegra.ph/file/d42e442f7333dbe863a44.jpg')).split()
-NOR_IMG = environ.get("NOR_IMG", "https://telegra.ph/file/d42e442f7333dbe863a44.jpg")
-SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/d42e442f7333dbe863a44.jpg")
-NEWGRP = environ.get("NEWGRP", "https://telegra.ph/file/d42e442f7333dbe863a44.jpg")
+NOR_IMG = environ.get("NOR_IMG", "")
+SPELL_IMG = environ.get("SPELL_IMG", "")
+NEWGRP = environ.get("NEWGRP", "")
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1782834874').split()]
@@ -45,7 +45,7 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/blackest_harbour')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/z_harbour')
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/mdisk_bots')
-MSG_ALRT = environ.get('MSG_ALRT', 'Share and Support Us')
+MSG_ALRT = environ.get('MSG_ALRT', 'LONG LIVE BLACK MARKET FED!')
 
 # Custom Chats
 SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', -1001557431626))
