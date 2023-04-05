@@ -520,7 +520,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
                     InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about'),
                   ],[
-                    InlineKeyboardButton('sᴜʙsᴄʀɪʙᴇ ᴏᴜʀ ʏᴛ ᴄʜᴀɴɴᴇʟ', url="https://youtube.com/@TechnicalDwip")
+                    InlineKeyboardButton('BLACK MARKET', url="https://zharbour.blogspot.com")
                   ]]
         
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -553,9 +553,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons = [[
-            InlineKeyboardButton('ʀᴇᴘᴏʀᴛ ʙᴜɢs & ꜰᴇᴇᴅʙᴀᴄᴋ', url="https://t.me/Royaldwip")
+            InlineKeyboardButton('BOT LISTS', url="https://t.me/mdisk_bots")
         ],[
-            InlineKeyboardButton('ᴠɪsɪᴛ ᴏᴜʀ ᴍᴏᴠɪᴇ ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ ᴡᴇʙsɪᴛᴇ', url="www.worldofmovies.cf")
+            InlineKeyboardButton('ᴠɪsɪᴛ ᴏᴜʀ ᴍᴏᴠɪᴇ ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ ᴡᴇʙsɪᴛᴇ', url="https://zharbour.blogspot.com")
         ],[
             InlineKeyboardButton('ʜᴏᴍᴇ', callback_data='start'),
             InlineKeyboardButton('ᴄʟᴏsᴇ', callback_data='close_data')
@@ -718,10 +718,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
             )
     elif query.data == "cynite_cnl":
             cnlbtn = [[
-                      InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url='t.me/WomBackup')
+                      InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url='t.me/z_harbour')
                      ], [
-                      InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ', url='t.me/Womsupport'),
-                      InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇs', url='t.me/Wombackup')
+                      InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ', url='t.me/z_harbour'),
+                      InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇs', url='t.me/z_harbour')
                      ], [
                       InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="start")
                      ]]
