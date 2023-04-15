@@ -313,9 +313,10 @@ https://t.me/blackest_harbour </code>
 
 ɢᴏ ᴛᴏ ɢᴏᴏɢʟᴇ ➠ ᴛʏᴘᴇ ꜱᴇʀɪᴇꜱ ɴᴀᴍᴇ ➠ ᴄᴏᴘʏ ᴄᴏʀʀᴇᴄᴛ ɴᴀᴍᴇ ➠ ᴘᴀꜱᴛᴇ ᴛʜɪꜱ ɢʀᴏᴜᴘ
 
-ᴇxᴀᴍᴘʟᴇ : Money Heist S01E01 or Money Heist S01 E01
+ᴇxᴀᴍᴘʟᴇ : Farzi S01E01 or Money Heist Combined !
 
 🚯 ᴅᴏɴᴛ ᴜꜱᴇ ➠ ':(!,./)
+
 """
 
     PAGEINFO = """
@@ -329,11 +330,11 @@ https://t.me/blackest_harbour </code>
     SPLMD = """
 ᴍᴏᴠɪᴇ ʀᴇǫᴜᴇsᴛ ғᴏʀᴍᴀᴛ
 
-ᴇxᴀᴍᴘʟᴇ : Kgf or Kgf 2022
+ᴇxᴀᴍᴘʟᴇ : Kgf or Kgf 2022 or Game Of Thrones Combined !
 
 sᴇʀɪᴇs ʀᴇǫᴜᴇsᴛ ғᴏʀᴍᴀᴛ
 
-ᴇxᴀᴍᴘʟᴇ : Money Heist S01E01 or Money Heist S01 E01
+ᴇxᴀᴍᴘʟᴇ : Farzi S01E01 or Dexter S01 E01 or Game Of Thrones Combined!
 
 🚯ᴅᴏɴ'ᴛ ᴜsᴇ ➠ ':(!,./)
 
