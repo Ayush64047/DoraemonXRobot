@@ -12,7 +12,7 @@ def is_enabled(value, default):
 
 # Bot information
 PORT = environ.get("PORT", "8080")
-SESSION = environ.get('SESSION', 'Doraemon')
+SESSION = environ.get('SESSION', 'Mdisl')
 API_ID = int(environ.get('API_ID', '13556430'))
 API_HASH = environ.get('API_HASH', '3531771c0d58b9ffc44d12f38c5edbf5')
 BOT_TOKEN = environ.get('BOT_TOKEN', "5879211417:AAGq7q7aF4iPQxMpMirgLG1s8t0PuKlfl6g")
@@ -37,8 +37,8 @@ AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_chan
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Akpicturebot:Akpicturebot@cluster0.88tpl4c.mongodb.net/?retryWrites=true&w=majority")
-DATABASE_NAME = environ.get('DATABASE_NAME', "Royaldwip")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Ayush64047:Ayush64047@cluster0.evs4elc.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster2")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Channel Button Links
@@ -80,8 +80,8 @@ AUTO_DELETE = is_enabled((environ.get('AUTO_DELETE', "True")), True)
 MAUTO_DELETE = is_enabled((environ.get('MAUTO_DELETE', "True")), True)
 
 # Delete Time
-DELETE_TIME = int(environ.get('DELETE_TIME', 300))
-SPL_DELETE_TIME = int(environ.get('SPL_DELETE_TIME', 120))
+DELETE_TIME = int(environ.get('DELETE_TIME', 3000))
+SPL_DELETE_TIME = int(environ.get('SPL_DELETE_TIME', 1200))
 
 # URL SHORTNER
 
