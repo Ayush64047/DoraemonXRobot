@@ -12,10 +12,10 @@ def is_enabled(value, default):
 
 # Bot information
 PORT = environ.get("PORT", "8080")
-SESSION = environ.get('SESSION', '')
-API_ID = int(environ.get('API_ID', '13556430'))
-API_HASH = environ.get('API_HASH', '3531771c0d58b9ffc44d12f38c5edbf5')
-BOT_TOKEN = environ.get('BOT_TOKEN', "5879211417:AAGq7q7aF4iPQxMpMirgLG1s8t0PuKlfl6g")
+SESSION = environ.get('SESSION', 'Mdiskk')
+API_ID = int(environ.get('API_ID', ''))
+API_HASH = environ.get('API_HASH', '')
+BOT_TOKEN = environ.get('BOT_TOKEN', "5390002514:AAFl46Gwde7eJEIEb2LnZtAsvVJG-DSwwIM")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
