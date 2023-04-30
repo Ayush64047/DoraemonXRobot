@@ -48,14 +48,14 @@ SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/mdisk_bots')
 MSG_ALRT = environ.get('MSG_ALRT', 'LONG LIVE BLACK MARKET FED!')
 
 # Custom Chats
-SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', -1001557431626))
-FILE_CHANNEL = int(environ.get('FILE_CHANNEL', -1001664271836))
+SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', ))
+FILE_CHANNEL = int(environ.get('FILE_CHANNEL', ))
 FILE_CHANNEL_LINK = environ.get('FILE_CHANNEL_LINK', 'https://t.me/+BOskvi9PgTgzMmE1')
 HOW_DWLD_LINK = environ.get('HOW_DWLD_LINK', 'https://t.me/mdisk_bots/13')
 
 # Log Channels
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', -1001634487274))
-RQST_LOG_CHANNEL = int(environ.get('RQST_LOG_CHANNEL', -1001634487274))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', ))
+RQST_LOG_CHANNEL = int(environ.get('RQST_LOG_CHANNEL', ))
 
 # Bot Options
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
@@ -85,8 +85,8 @@ SPL_DELETE_TIME = int(environ.get('SPL_DELETE_TIME', 1200))
 
 # URL SHORTNER
 
-URL_SHORTENR_WEBSITE = environ.get('URL_SHORTENR_WEBSITE', 'shorturllink.in')
-URL_SHORTNER_WEBSITE_API = environ.get('URL_SHORTNER_WEBSITE_API', '652e60db3da459d3f15dbb1775fa0aaf62b6ec4c')
+URL_SHORTENR_WEBSITE = environ.get('URL_SHORTENR_WEBSITE', '')
+URL_SHORTNER_WEBSITE_API = environ.get('URL_SHORTNER_WEBSITE_API', '')
 
 LOG_STR = "Current Cusomized Configurations are:-\n"
 LOG_STR += ("IMDB Results are enabled, Bot will be showing imdb details for you queries.\n" if IMDB else "IMBD Results are disabled.\n")
