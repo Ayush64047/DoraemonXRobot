@@ -31,13 +31,13 @@ ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001877356372').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
-auth_channel = environ.get('-1001557431626')
+auth_channel = environ.get('None')
 auth_grp = environ.get('AUTH_GROUP')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://gtxprime:gtxprime@cluster0.iknrzio.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_URI = environ.get('DATABASE_URI', "")
 DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
@@ -48,14 +48,14 @@ SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/mdisk_bots')
 MSG_ALRT = environ.get('MSG_ALRT', 'LONG LIVE BLACK MARKET FED!')
 
 # Custom Chats
-SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', ))
-FILE_CHANNEL = int(environ.get('FILE_CHANNEL', ))
-FILE_CHANNEL_LINK = environ.get('FILE_CHANNEL_LINK', 'https://t.me/+BOskvi9PgTgzMmE1')
+SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP',-1001529371079 ))
+FILE_CHANNEL = int(environ.get('FILE_CHANNEL',-1001898364516))
+FILE_CHANNEL_LINK = environ.get('FILE_CHANNEL_LINK', 'https://t.me/+EsuevKcA21A1MTU1')
 HOW_DWLD_LINK = environ.get('HOW_DWLD_LINK', 'https://t.me/mdisk_bots/13')
 
 # Log Channels
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', ))
-RQST_LOG_CHANNEL = int(environ.get('RQST_LOG_CHANNEL', ))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL',-1001738180086 ))
+RQST_LOG_CHANNEL = int(environ.get('RQST_LOG_CHANNEL',-1001605409121))
 
 # Bot Options
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
