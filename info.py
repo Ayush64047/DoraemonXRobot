@@ -37,9 +37,9 @@ AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_chan
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Ayush:Ayush@cluster0.srqzvpb.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Ayush64047:Ayush@cluster1.0rkzbkj.mongodb.net/?retryWrites=true&w=majority")
 DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Z_Harbour')
 
 # Channel Button Links
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/blackest_harbour')
@@ -49,8 +49,8 @@ MSG_ALRT = environ.get('MSG_ALRT', 'LONG LIVE BLACK MARKET FED!')
 
 # Custom Chats
 SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP',-1001529371079 ))
-FILE_CHANNEL = int(environ.get('FILE_CHANNEL',-1001898364516))
-FILE_CHANNEL_LINK = environ.get('FILE_CHANNEL_LINK', 'https://t.me/+EsuevKcA21A1MTU1')
+FILE_CHANNEL = int(environ.get('FILE_CHANNEL',-1001903009578))
+FILE_CHANNEL_LINK = environ.get('FILE_CHANNEL_LINK', 'https://t.me/+oUQoWrCe9FZmMWZl')
 HOW_DWLD_LINK = environ.get('HOW_DWLD_LINK', 'https://t.me/mdisk_bots/13')
 
 # Log Channels
